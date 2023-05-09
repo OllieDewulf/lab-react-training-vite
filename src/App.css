@@ -43,16 +43,15 @@
 
 #container {
   display: flex;
-  padding-right: 5em;
+  
 }
 
 #sub-container {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(239, 208, 208);
   color: black;
-  border-style: black;
+  border-radius: 10px;
   width: 1800px;
-  height: 80%;
 
 }

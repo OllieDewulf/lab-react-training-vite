@@ -5,12 +5,12 @@ const BoxColor = (props) => {
 
   let hexaDecimal =
     '#' +
-    ('0' + r.toString(16)).substr(-2) +
-    ('0' + g.toString(16)).substr(-2) +
-    ('0' + b.toString(16)).substr(-2);
+    ('0' + r.toString(16)) +
+    ('0' + g.toString(16)) +
+    ('0' + b.toString(16));
 
   return (
-    <div className="m-3 p-2" style={{ backgroundColor: `rgb(${r},${g},${b})` }}>
+    <div style={{ backgroundColor: `rgb(${r},${g},${b})` }}>
       <p>
         rgb({r},{g},{b})
       </p>
